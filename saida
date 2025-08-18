@@ -1,0 +1,24 @@
+Matriz de Adjacência:
+   A B C D E
+A: 0 1 1 0 0
+B: 1 0 0 1 0
+C: 1 0 0 1 1
+D: 0 1 1 0 0
+E: 0 0 1 0 0
+Número de vértices: 5
+Número de arestas: 5
+Sequência de graus: [2, 2, 3, 2, 1]
+
+
+
+
+Matriz de Adjacência:
+   A B C D E
+A: 0 1 0 0 0
+B: 1 0 0 1 0
+C: 0 0 0 1 1
+D: 0 1 1 0 0
+E: 0 0 1 0 0
+Número de vértices: 5
+Número de arestas: 4
+Sequência de graus: [1, 2, 2, 2, 1]
