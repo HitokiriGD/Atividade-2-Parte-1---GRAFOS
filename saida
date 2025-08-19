@@ -1,3 +1,4 @@
+===== TESTE GRAFO DENSO =====
 Matriz de Adjacência:
    A B C D E
 A: 0 1 1 0 0
@@ -9,8 +10,7 @@ Número de vértices: 5
 Número de arestas: 5
 Sequência de graus: [2, 2, 3, 2, 1]
 
-
-
+Removendo aresta (A, C)...
 
 Matriz de Adjacência:
    A B C D E
@@ -22,3 +22,27 @@ E: 0 0 1 0 0
 Número de vértices: 5
 Número de arestas: 4
 Sequência de graus: [1, 2, 2, 2, 1]
+
+
+===== TESTE GRAFO ESPARSO =====
+Lista de Adjacência:
+A: ['B', 'C', 'B', 'B']
+B: ['A', 'D', 'A', 'A']
+C: ['A', 'D', 'E']
+D: ['C', 'B']
+E: ['C']
+Número de vértices: 5
+Número de arestas: 7
+Sequência de graus: [4, 4, 3, 2, 1]
+
+Removendo apenas UMA aresta (A, B)...
+
+Lista de Adjacência:
+A: ['C', 'B', 'B']
+B: ['D', 'A', 'A']
+C: ['A', 'D', 'E']
+D: ['C', 'B']
+E: ['C']
+Número de vértices: 5
+Número de arestas: 6
+Sequência de graus: [3, 3, 3, 2, 1]
